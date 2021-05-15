@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<map>
+<intersection id="111111" latitude="45.748405" longitude="4.875445"/>
+<intersection id="222222" latitude="45.750526" longitude="4.8685336"/>
+<intersection id="333333333" latitude="45.761852" longitude="4.8579416"/>
+<intersection id="444444" latitude="45.754433" longitude="4.8718023"/>
+<intersection id="5555555" latitude="45.75405" longitude="4.86861"/>
+<segment destination="222222" length="82.0" name="Cours Albert" origin="111111"/>
+<segment destination="5555555" length="76.0" name="Petite Rue sir" origin="111111"/>
+<segment destination="111111" length="24.0" name="Rue Saint-Philippe" origin="222222"/>
+<segment destination="333333333" length="37.0" name="Rue Saint-Philippe" origin="222222"/>
+<segment destination="5555555" length="71.0" name="Place Danton" origin="333333333"/>
+<segment destination="444444" length="88.0" name="Rue Clos et" origin="333333333"/>
+<segment destination="222222" length="70.0" name="Avenue Manier" origin="444444"/>
+<segment destination="5555555" length="76.0" name="Avenue Marnier" origin="444444"/>
+<segment destination="333333333" length="22.0" name="Avenue Laagne" origin="5555555"/>
+<segment destination="444444" length="39.0" name="Avenue Laagne" origin="5555555"/>
+</map>

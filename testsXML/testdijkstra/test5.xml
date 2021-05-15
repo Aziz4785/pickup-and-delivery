@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<map>
+<intersection id="0" latitude="45.748405" longitude="4.875445"/>
+<intersection id="1" latitude="45.748405" longitude="4.875445"/>
+<intersection id="2" latitude="45.750526" longitude="4.8685336"/>
+<intersection id="3" latitude="45.761852" longitude="4.8579416"/>
+<intersection id="4" latitude="45.754433" longitude="4.8718023"/>
+<intersection id="5" latitude="45.75405" longitude="4.86861"/>
+<segment destination="4" length="16.0" name="Cou" origin="0"/>
+<segment destination="3" length="93.0" name="Pr" origin="4"/>
+<segment destination="5" length="29.0" name="Pr" origin="3"/>
+<segment destination="2" length="86.0" name="Pr" origin="5"/>
+<segment destination="1" length="40.0" name="Pr" origin="2"/>
+<segment destination="1" length="0.0" name="Pr" origin="3"/>
+<segment destination="5" length="41.0" name="Pr" origin="1"/>
+<segment destination="4" length="3.0" name="Pr" origin="5"/>
+<segment destination="0" length="57.0" name="Pr" origin="4"/>
+<segment destination="2" length="72.0" name="Pr" origin="0"/>
+<segment destination="5" length="0.0" name="Pr" origin="2"/>
+</map>

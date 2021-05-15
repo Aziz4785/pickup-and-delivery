@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<map>
+<intersection id="0" latitude="45.748405" longitude="4.875445"/>
+<intersection id="1" latitude="45.750526" longitude="4.8685336"/>
+<intersection id="2" latitude="45.761852" longitude="4.8579416"/>
+<intersection id="3" latitude="45.754433" longitude="4.8718023"/>
+<intersection id="4" latitude="45.75405" longitude="4.86861"/>
+<intersection id="5" latitude="45.75405" longitude="4.86861"/>
+<intersection id="6" latitude="45.75405" longitude="4.86861"/>
+<segment destination="2" length="26.0" name="Cours Albert" origin="0"/>
+<segment destination="4" length="7.0" name="Petite Rue sir" origin="2"/>
+<segment destination="6" length="82.0" name="Rue Saint-Philippe" origin="4"/>
+<segment destination="5" length="61.0" name="Rue Saint-Philippe" origin="6"/>
+<segment destination="3" length="92.0" name="Place Danton" origin="5"/>
+<segment destination="1" length="3.0" name="Rue Clos et" origin="3"/>
+<segment destination="0" length="75.0" name="Avenue Manier" origin="1"/>
+<segment destination="4" length="34.0" name="Avenue Marnier" origin="0"/>
+<segment destination="4" length="2.0" name="Avenue Laagne" origin="5"/>
+<segment destination="2" length="24.0" name="Avenue Laagne" origin="4"/>
+<segment destination="0" length="68.0" name="Avenue Manier" origin="2"/>
+<segment destination="3" length="63.0" name="Avenue Marnier" origin="0"/>
+<segment destination="5" length="63.0" name="Avenue Laagne" origin="3"/>
+<segment destination="6" length="8.0" name="Avenue Laagne" origin="5"/>
+<segment destination="4" length="5.0" name="Avenue Manier" origin="3"/>
+<segment destination="3" length="64.0" name="Avenue Marnier" origin="1"/>
+</map>

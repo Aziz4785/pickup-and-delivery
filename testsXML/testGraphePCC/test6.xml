@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<map>
+<intersection id="0" latitude="45.748405" longitude="4.875445"/>
+<intersection id="1" latitude="45.750526" longitude="4.8685336"/>
+<intersection id="2" latitude="45.750526" longitude="4.8685336"/>
+<intersection id="3" latitude="45.761852" longitude="4.8579416"/>
+<intersection id="4" latitude="45.754433" longitude="4.8718023"/>
+<intersection id="5" latitude="45.75405" longitude="4.86861"/>
+<intersection id="6" latitude="45.750526" longitude="4.8685336"/>
+<intersection id="7" latitude="45.754433" longitude="4.8718023"/>
+<intersection id="8" latitude="45.75405" longitude="4.86861"/>
+<intersection id="9" latitude="45.750526" longitude="4.8685336"/>
+<intersection id="10" latitude="45.754433" longitude="4.8718023"/>
+<intersection id="11" latitude="45.75405" longitude="4.86861"/>
+<intersection id="12" latitude="45.750526" longitude="4.8685336"/>
+<segment destination="7" length="22" name="Co" origin="9"/>
+<segment destination="6" length="6" name="Co" origin="7"/>
+<segment destination="4" length="24" name="Co" origin="6"/>
+<segment destination="2" length="53" name="Co" origin="4"/>
+<segment destination="8" length="82" name="Co" origin="2"/>
+<segment destination="10" length="89" name="Co" origin="8"/>
+<segment destination="0" length="8" name="Co" origin="10"/>
+<segment destination="11" length="98" name="Co" origin="0"/>
+<segment destination="1" length="35" name="Co" origin="11"/>
+<segment destination="3" length="9" name="Co" origin="1"/>
+<segment destination="5" length="51" name="Co" origin="3"/>
+<segment destination="6" length="87" name="Co" origin="5"/>
+<segment destination="7" length="54" name="Co" origin="6"/>
+<segment destination="9" length="87" name="Co" origin="7"/>
+<segment destination="4" length="26" name="Co" origin="3"/>
+<segment destination="8" length="20" name="Co" origin="4"/>
+<segment destination="2" length="61" name="Co" origin="8"/>
+<segment destination="11" length="28" name="Co" origin="2"/>
+<segment destination="0" length="18" name="Co" origin="11"/>
+<segment destination="10" length="30" name="Co" origin="0"/>
+<segment destination="1" length="88" name="Co" origin="10"/>
+<segment destination="5" length="6" name="Co" origin="1"/>
+<segment destination="5" length="78" name="Co" origin="6"/>
+<segment destination="11" length="86" name="Co" origin="8"/>
+<segment destination="7" length="94" name="Co" origin="4"/>
+<segment destination="1" length="82" name="Co" origin="8"/>
+<segment destination="11" length="13" name="Co" origin="9"/>
+<segment destination="9" length="87" name="Co" origin="2"/>
+<segment destination="8" length="90" name="Co" origin="10"/>
+</map>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="DESKTOP-IUC5A00" name="test.updateTourTest" skipped="0" tests="3" time="0.257" timestamp="2020-12-11T11:16:04">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.PVIEW_KEYSHOT6_HOME" value="C:\Program Files\KeyShot6\bin\" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-IUC5A00" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="env.SynaProgDir" value="Synaptics\SynTP" />
+    <property name="env.DriverData" value="C:\Windows\System32\Drivers\DriverData" />
+    <property name="os.name" value="Windows 10" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_271\lib\resources.jar;C:\Program Files\Java\jre1.8.0_271\lib\rt.jar;C:\Program Files\Java\jre1.8.0_271\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_271\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_271\lib\jce.jar;C:\Program Files\Java\jre1.8.0_271\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_271\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_271\classes" />
+    <property name="env.COMPUTERNAME" value="DESKTOP-IUC5A00" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\Users\kanoun\Desktop\eclipse\eclipse\plugins\org.apache.ant_1.10.8.v20200515-1239" />
+    <property name="java.runtime.version" value="1.8.0_271-b09" />
+    <property name="env.HOMEPATH" value="\Users\kanoun" />
+    <property name="user.name" value="kanoun" />
+    <property name="env.P_SCHEMA" value="C:\Program Files\Solid Edge ST10\Schema" />
+    <property name="user.language" value="fr" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_271\bin" />
+    <property name="env.RTOOLS40_HOME" value="C:\rtools40" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="PLD_AGILE" />
+    <property name="java.version" value="1.8.0_271" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 9, GenuineIntel" />
+    <property name="user.timezone" value="" />
+    <property name="env.TEMP" value="C:\Users\kanoun\AppData\Local\Temp" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="env.KEYSHOT_EXTERNAL_LICENSE_FOLDER" value="C:\Program Files\Solid Edge ST10\Program" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_271\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="FR" />
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_271" />
+    <property name="env.PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules" />
+    <property name="env.APPDATA" value="C:\Users\kanoun\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="ant.file" value="C:\Users\kanoun\Desktop\pullPLDagile\PLD_AGILE\PLD_AGILE\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.271-b09" />
+    <property name="user.variant" value="" />
+    <property name="env.USERPROFILE" value="C:\Users\kanoun" />
+    <property name="ant.file.PLD_AGILE" value="C:\Users\kanoun\Desktop\pullPLDagile\PLD_AGILE\PLD_AGILE\build.xml" />
+    <property name="ant.library.dir" value="C:\Users\kanoun\Desktop\eclipse\eclipse\plugins\org.apache.ant_1.10.8.v20200515-1239\lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_271" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TMP" value="C:\Users\kanoun\AppData\Local\Temp" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\kanoun" />
+    <property name="target" value="1.8" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_271\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_271/bin/server;C:/Program Files/Java/jre1.8.0_271/bin;C:/Program Files/Java/jre1.8.0_271/lib/amd64;&quot;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_271&quot;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_102\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2019b\bin;C:\Program Files\Git\cmd;C:\HashiCorp\Vagrant\bin;C:\Program Files\Java\jdk-14\bin;C:\MinGW\bin;C:\Program Files\swipl\bin;C:\Users\kanoun\AppData\Local\Microsoft\WindowsApps;C:\Users\kanoun\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kanoun\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\Users\kanoun\Desktop\eclipse\eclipse;;." />
+    <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.8 compiled on May 10 2020" />
+    <property name="java.class.path" value="C:\Users\kanoun\Desktop\eclipse\eclipse\plugins\org.junit_4.13.0.v20200204-1500.jar;C:\Users\kanoun\Desktop\eclipse\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar;C:\Users\kanoun\Desktop\pullPLDagile\PLD_AGILE\PLD_AGILE\bin;C:\junit4\hamcrest-all-1.3.jar;C:\junit4\junit-4.13.1.jar;C:\Users\kanoun\Desktop\eclipse\eclipse\plugins\org.apache.ant_1.10.8.v20200515-1239\lib\ant-launcher.jar;C:\Users\kanoun\Desktop\eclipse\eclipse\plugins\org.apache.ant_1.10.8.v20200515-1239\lib\ant.jar;C:\Users\kanoun\Desktop\eclipse\eclipse\plugins\org.apache.ant_1.10.8.v20200515-1239\lib\ant-junit.jar;C:\Users\kanoun\Desktop\eclipse\eclipse\plugins\org.apache.ant_1.10.8.v20200515-1239\lib\ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.updateTourTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\kanoun\Desktop\pullPLDagile\PLD_AGILE\PLD_AGILE\junit\TEST-test.updateTourTest.xml crashfile=C:\Users\kanoun\Desktop\pullPLDagile\PLD_AGILE\PLD_AGILE\junitvmwatcher4130527289604626852.properties propsfile=C:\Users\kanoun\Desktop\pullPLDagile\PLD_AGILE\PLD_AGILE\junit502103873426417773.properties" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.windir" value="C:\WINDOWS" />
+    <property name="env.LOGONSERVER" value="\\DESKTOP-IUC5A00" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.OneDrive" value="C:\Users\kanoun\OneDrive" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="env.ANT_HOME" value="C:\Users\kanoun\Desktop\eclipse\eclipse\plugins\org.apache.ant_1.10.8.v20200515-1239" />
+    <property name="java.io.tmpdir" value="C:\Users\kanoun\AppData\Local\Temp\" />
+    <property name="env.PROCESSOR_REVISION" value="8e09" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.OneDriveConsumer" value="C:\Users\kanoun\OneDrive" />
+    <property name="env.SystemRoot" value="C:\WINDOWS" />
+    <property name="ant.file.type.PLD_AGILE" value="file" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_271\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Users\kanoun\Desktop\pullPLDagile\PLD_AGILE\PLD_AGILE" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\kanoun\AppData\Local" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="env.Path" value="C:/Program Files/Java/jre1.8.0_271/bin/server;C:/Program Files/Java/jre1.8.0_271/bin;C:/Program Files/Java/jre1.8.0_271/lib/amd64;&quot;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_271&quot;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_102\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2019b\bin;C:\Program Files\Git\cmd;C:\HashiCorp\Vagrant\bin;C:\Program Files\Java\jdk-14\bin;C:\MinGW\bin;C:\Program Files\swipl\bin;C:\Users\kanoun\AppData\Local\Microsoft\WindowsApps;C:\Users\kanoun\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kanoun\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\Users\kanoun\Desktop\eclipse\eclipse;" />
+    <property name="basedir" value="C:\Users\kanoun\Desktop\pullPLDagile\PLD_AGILE\PLD_AGILE" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\Users\kanoun\Desktop\eclipse\eclipse\plugins\org.apache.ant_1.10.8.v20200515-1239\lib\ant.jar" />
+    <property name="env.USERNAME" value="kanoun" />
+    <property name="source" value="1.8" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="env.KEYSHOT6" value="C:\Users\Public\Documents\KeyShot 6" />
+    <property name="env.USERDOMAIN" value="DESKTOP-IUC5A00" />
+    <property name="env.KEYSHOT5" value="C:\Users\Public\Documents\KeyShot 5" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="build,convertToSegmentListTest,ChangeRequestOrderCommandTest,updateTourTest,updateStopTimesTest,GenerateSPGraphTest,generateBestTourTest,dijkstraTest (1),AllTests,junitreport" />
+    <property name="env.VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+  </properties>
+  <testcase classname="test.updateTourTest" name="test1" time="0.151" />
+  <testcase classname="test.updateTourTest" name="test4" time="0.025" />
+  <testcase classname="test.updateTourTest" name="test7" time="0.024" />
+  <system-out><![CDATA[Imported map with : 7 nodes
+Imported 1 requests !
+total distance : 167.1999424004608
+1 -> 
+1 null
+5 1
+6 2
+0 1
+2 1
+3 2
+4 3
+4 -> 
+1 6
+5 6
+6 4
+0 5
+2 1
+3 2
+4 null
+6 -> 
+1 6
+5 6
+6 null
+0 5
+2 1
+3 2
+4 3
+Imported map with : 7 nodes
+Imported 1 requests !
+total distance : 167.1999424004608
+Imported map with : 7 nodes
+Imported 1 requests !
+total distance : 167.1999424004608
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

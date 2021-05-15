@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<map>
+<intersection id="111111" latitude="45.748405" longitude="4.875445"/>
+<intersection id="222222" latitude="50.0" longitude="6.0"/>
+<segment destination="222222" length="10.0" name="Cours Albert Thomas" origin="111111"/>
+<segment destination="111111" length="31.0" name="Rue Saint-Philippe" origin="222222"/>
+</map>

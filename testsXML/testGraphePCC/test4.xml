@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<map>
+<intersection id="0" latitude="45.748405" longitude="4.875445"/>
+<intersection id="1" latitude="45.750526" longitude="4.8685336"/>
+<intersection id="1382784520" latitude="45.750526" longitude="4.8685336"/>
+<intersection id="3" latitude="45.761852" longitude="4.8579416"/>
+<intersection id="4" latitude="45.754433" longitude="4.8718023"/>
+<intersection id="5" latitude="45.75405" longitude="4.86861"/>
+<intersection id="6" latitude="45.750526" longitude="4.8685336"/>
+<segment destination="1382784520" length="20" name="Co" origin="0"/>
+<segment destination="6" length="60" name="Co" origin="1382784520"/>
+<segment destination="4" length="86" name="Co" origin="6"/>
+<segment destination="3" length="84" name="Co" origin="4"/>
+<segment destination="5" length="46" name="Co" origin="3"/>
+<segment destination="1" length="69" name="Co" origin="5"/>
+<segment destination="1" length="75" name="Co" origin="3"/>
+<segment destination="4" length="83" name="Co" origin="1"/>
+<segment destination="5" length="52" name="Co" origin="4"/>
+<segment destination="6" length="7" name="Co" origin="5"/>
+<segment destination="1382784520" length="55" name="Co" origin="6"/>
+<segment destination="0" length="80" name="Co" origin="1382784520"/>
+<segment destination="0" length="39" name="Co" origin="4"/>
+</map>

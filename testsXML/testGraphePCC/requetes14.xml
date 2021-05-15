@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<planningRequest>
+<depot address="5" departureTime="8:0:0"/>
+<request pickupAddress="3" deliveryAddress="5" pickupDuration="20" deliveryDuration="8"/>
+<request pickupAddress="3" deliveryAddress="5" pickupDuration="12" deliveryDuration="8"/>
+<request pickupAddress="3" deliveryAddress="5" pickupDuration="12" deliveryDuration="8"/>
+</planningRequest>

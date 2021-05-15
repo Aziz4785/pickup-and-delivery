@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<map>
+<intersection id="0" latitude="45.748405" longitude="4.875445"/>
+<intersection id="1" latitude="45.748405" longitude="4.875445"/>
+<intersection id="2" latitude="45.750526" longitude="4.8685336"/>
+<intersection id="3" latitude="45.761852" longitude="4.8579416"/>
+<segment destination="2" length="0" name="Pr" origin="0"/>
+<segment destination="1" length="0" name="Pr" origin="0"/>
+<segment destination="3" length="0" name="Pr" origin="2"/>
+<segment destination="3" length="0" name="Pr" origin="1"/>
+<segment destination="0" length="0.0" name="Pr" origin="3"/>
+<segment destination="1" length="0" name="Pr" origin="2"/>
+<segment destination="2" length="0" name="Pr" origin="3"/>
+<segment destination="1" length="0" name="Pr" origin="3"/>
+</map>

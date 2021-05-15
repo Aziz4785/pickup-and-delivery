@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<map>
+<intersection id="111111" latitude="45.748405" longitude="4.875445"/>
+<intersection id="222222" latitude="45.750526" longitude="4.8685336"/>
+<intersection id="333333333" latitude="45.761852" longitude="4.8579416"/>
+<intersection id="444444" latitude="45.754433" longitude="4.8718023"/>
+<intersection id="5555555" latitude="45.75405" longitude="4.86861"/>
+<intersection id="6666666" latitude="45.75978" longitude="4.875795"/>
+<segment destination="222222" length="10.0" name="Cours Albert Thomas" origin="111111"/>
+<segment destination="333333333" length="20.0" name="Petite Rue de Monplaisir" origin="111111"/>
+<segment destination="111111" length="31.0" name="Rue Saint-Philippe" origin="222222"/>
+<segment destination="5555555" length="10.0" name="Rue Saint-Philippe" origin="222222"/>
+<segment destination="444444" length="50.0" name="Rue Saint-Philippe" origin="222222"/>
+<segment destination="5555555" length="33.0" name="Place Danton" origin="333333333"/>
+<segment destination="444444" length="20.0" name="Rue Clos Poncet" origin="333333333"/>
+<segment destination="222222" length="30.0" name="Avenue Marc Sangnier" origin="444444"/>
+<segment destination="5555555" length="20.0" name="Avenue Marc Sangnier" origin="444444"/>
+<segment destination="6666666" length="2.0" name="Avenue Lacassagne" origin="444444"/>
+<segment destination="6666666" length="1.0" name="Avenue Lacassagne" origin="5555555"/>
+<segment destination="333333333" length="45.0" name="Avenue Lacassagne" origin="6666666"/>
+<segment destination="444444" length="18.0" name="Avenue Lacassagne" origin="6666666"/>
+</map>

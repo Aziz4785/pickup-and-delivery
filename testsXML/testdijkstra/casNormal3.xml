@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<map>
+<intersection id="1" latitude="45.748405" longitude="4.875445"/>
+<intersection id="2" latitude="45.750526" longitude="4.8685336"/>
+<intersection id="3" latitude="45.761852" longitude="4.8579416"/>
+<intersection id="4" latitude="45.754433" longitude="4.8718023"/>
+<intersection id="5" latitude="45.75405" longitude="4.86861"/>
+<intersection id="6" latitude="45.748405" longitude="4.875445"/>
+<intersection id="7" latitude="45.750526" longitude="4.8685336"/>
+<intersection id="8" latitude="45.761852" longitude="4.8579416"/>
+<intersection id="9" latitude="45.754433" longitude="4.8718023"/>
+<intersection id="10" latitude="45.75405" longitude="4.86861"/>
+<intersection id="11" latitude="45.75405" longitude="4.86861"/>
+<intersection id="12" latitude="45.75405" longitude="4.86861"/>
+<intersection id="13" latitude="45.75405" longitude="4.86861"/>
+<intersection id="14" latitude="45.75405" longitude="4.86861"/>
+<intersection id="15" latitude="45.75405" longitude="4.86861"/>
+<intersection id="16" latitude="45.75405" longitude="4.86861"/>
+<intersection id="17" latitude="45.75405" longitude="4.86861"/>
+<intersection id="18" latitude="45.75405" longitude="4.86861"/>
+<segment destination="3" length="46.0" name="Cou" origin="1"/>
+<segment destination="17" length="34.0" name="Pr" origin="3"/>
+<segment destination="18" length="63.0" name="Pr" origin="17"/>
+<segment destination="13" length="55.0" name="Pr" origin="18"/>
+<segment destination="14" length="59.0" name="Pr" origin="13"/>
+<segment destination="12" length="52.0" name="Pr" origin="3"/>
+<segment destination="15" length="23.0" name="Pr" origin="12"/>
+<segment destination="4" length="40.0" name="Pr" origin="15"/>
+<segment destination="2" length="48.0" name="Pr" origin="15"/>
+<segment destination="16" length="42.0" name="Pr" origin="11"/>
+<segment destination="5" length="46.0" name="Pr" origin="11"/>
+<segment destination="17" length="25.0" name="Pr" origin="11"/>
+<segment destination="7" length="59.0" name="Pr" origin="16"/>
+<segment destination="7" length="59.0" name="Pr" origin="17"/>
+<segment destination="8" length="56.0" name="Pr" origin="7"/>
+<segment destination="10" length="33.0" name="Pr" origin="8"/>
+<segment destination="5" length="39.0" name="Pr" origin="10"/>
+<segment destination="16" length="52.0" name="Pr" origin="5"/>
+<segment destination="6" length="25.0" name="Pr" origin="9"/>
+<segment destination="6" length="66.0" name="Pr" origin="10"/>
+<segment destination="4" length="38.0" name="Pr" origin="10"/>
+<segment destination="2" length="37.0" name="Pr" origin="4"/>
+<segment destination="12" length="59.0" name="Pr" origin="2"/>
+<segment destination="5" length="49.0" name="Pr" origin="15"/>
+<segment destination="11" length="45.0" name="Pr" origin="15"/>
+<segment destination="7" length="39.0" name="Pr" origin="11"/>
+<segment destination="18" length="62.0" name="Pr" origin="7"/>
+<segment destination="3" length="35.0" name="Pr" origin="18"/>
+<segment destination="9" length="53.0" name="Pr" origin="8"/>
+<segment destination="9" length="56.0" name="Pr" origin="10"/>
+<segment destination="1" length="32.0" name="Pr" origin="12"/>
+<segment destination="1" length="31.0" name="Pr" origin="14"/>
+<segment destination="11" length="57.0" name="Pr" origin="12"/>
+<segment destination="4" length="56.0" name="Pr" origin="6"/>
+<segment destination="8" length="52.0" name="Pr" origin="10"/>
+<segment destination="7" length="16.0" name="Pr" origin="8"/>
+<segment destination="12" length="33.0" name="Pr" origin="11"/>
+<segment destination="6" length="28.0" name="Pr" origin="4"/>
+<segment destination="4" length="18.0" name="Pr" origin="2"/>
+<segment destination="3" length="9.0" name="Pr" origin="14"/>
+<segment destination="14" length="17.0" name="Pr" origin="3"/>
+</map>

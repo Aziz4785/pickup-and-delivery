@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<map>
+<intersection id="0" latitude="45.748405" longitude="4.875445"/>
+<intersection id="1" latitude="45.750526" longitude="4.8685336"/>
+<intersection id="2" latitude="45.761852" longitude="4.8579416"/>
+<intersection id="3" latitude="45.754433" longitude="4.8718023"/>
+<intersection id="4" latitude="45.75405" longitude="4.86861"/>
+<intersection id="5" latitude="45.75405" longitude="4.86861"/>
+<segment destination="5" length="2.0" name="Cours Albert" origin="3"/>
+<segment destination="4" length="20.0" name="Petite Rue sir" origin="3"/>
+<segment destination="5" length="1.0" name="Rue Saint-Philippe" origin="4"/>
+<segment destination="4" length="10.0" name="Rue Saint-Philippe" origin="1"/>
+<segment destination="3" length="50.0" name="Place Danton" origin="1"/>
+<segment destination="1" length="10.0" name="Rue Clos et" origin="0"/>
+</map>

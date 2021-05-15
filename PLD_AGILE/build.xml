@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="PLD_AGILE">
+    <property environment="env"/>
+    <property name="junit.output.dir" value="junit"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.8"/>
+    <property name="source" value="1.8"/>
+    <path id="JUnit 4.libraryclasspath">
+        <pathelement location="../../../eclipse/eclipse/plugins/org.junit_4.13.0.v20200204-1500.jar"/>
+        <pathelement location="../../../eclipse/eclipse/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
+    </path>
+    <path id="PLD_AGILE.classpath">
+        <path refid="JUnit 4.libraryclasspath"/>
+        <pathelement location="bin"/>
+        <pathelement location="../../../../../../junit4/hamcrest-all-1.3.jar"/>
+        <pathelement location="../../../../../../junit4/junit-4.13.1.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="PLD_AGILE.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="AllTests">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.AllTests" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="PLD_AGILE.classpath"/>
+        </junit>
+    </target>
+    <target name="antColonyOptTest (1)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.antColonyOptTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="PLD_AGILE.classpath"/>
+        </junit>
+    </target>
+    <target name="antColonyOptTest.test11">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.antColonyOptTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="PLD_AGILE.classpath"/>
+        </junit>
+    </target>
+    <target name="antColonyOptTest.test4">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.antColonyOptTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="PLD_AGILE.classpath"/>
+        </junit>
+    </target>
+    <target name="antColonyOptTest.test5">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.antColonyOptTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="PLD_AGILE.classpath"/>
+        </junit>
+    </target>
+    <target name="ChangeRequestOrderCommandTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.ChangeRequestOrderCommandTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="PLD_AGILE.classpath"/>
+        </junit>
+    </target>
+    <target name="convertToSegmentListTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.convertToSegmentListTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="PLD_AGILE.classpath"/>
+        </junit>
+    </target>
+    <target name="dijkstraTest (1)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.dijkstraTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="PLD_AGILE.classpath"/>
+        </junit>
+    </target>
+    <target name="dijkstraTest.test2noeuds">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.dijkstraTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="PLD_AGILE.classpath"/>
+        </junit>
+    </target>
+    <target name="generateBestTourTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.generateBestTourTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="PLD_AGILE.classpath"/>
+        </junit>
+    </target>
+    <target name="generateBestTourTest.test2">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.generateBestTourTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="PLD_AGILE.classpath"/>
+        </junit>
+    </target>
+    <target name="GenerateSPGraphTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.GenerateSPGraphTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="PLD_AGILE.classpath"/>
+        </junit>
+    </target>
+    <target name="Main">
+        <java classname="view.Main" failonerror="true" fork="yes">
+            <classpath refid="PLD_AGILE.classpath"/>
+        </java>
+    </target>
+    <target name="pivantColonyOptTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.pivantColonyOptTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="PLD_AGILE.classpath"/>
+        </junit>
+    </target>
+    <target name="pivconvert">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.pivconvert" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="PLD_AGILE.classpath"/>
+        </junit>
+    </target>
+    <target name="pivdijkstra">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.pivdijkstra" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="PLD_AGILE.classpath"/>
+        </junit>
+    </target>
+    <target name="pivgeneratesp">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.pivgeneratesp" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="PLD_AGILE.classpath"/>
+        </junit>
+    </target>
+    <target name="pivgeneratesp.test1">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.pivgeneratesp" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="PLD_AGILE.classpath"/>
+        </junit>
+    </target>
+    <target name="pivgeneratesp.test2">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.pivgeneratesp" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="PLD_AGILE.classpath"/>
+        </junit>
+    </target>
+    <target name="pivgenerateSPG">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.pivgenerateSPG" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="PLD_AGILE.classpath"/>
+        </junit>
+    </target>
+    <target name="pivoantcol">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.pivoantcol" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="PLD_AGILE.classpath"/>
+        </junit>
+    </target>
+    <target name="test">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.AddNewRequestCommandTest" todir="${junit.output.dir}"/>
+            <test name="test.AllTests" todir="${junit.output.dir}"/>
+            <test name="test.ChangeRequestOrderCommandTest" todir="${junit.output.dir}"/>
+            <test name="test.DeleteCommandTest" todir="${junit.output.dir}"/>
+            <test name="test.GenerateSPGraphTest" todir="${junit.output.dir}"/>
+            <test name="test.ListOfRequestTest" todir="${junit.output.dir}"/>
+            <test name="test.MapTest" todir="${junit.output.dir}"/>
+            <test name="test.NodeTest" todir="${junit.output.dir}"/>
+            <test name="test.antColonyOptTest" todir="${junit.output.dir}"/>
+            <test name="test.convertToSegmentListTest" todir="${junit.output.dir}"/>
+            <test name="test.dijkstraTest" todir="${junit.output.dir}"/>
+            <test name="test.generateBestTourTest" todir="${junit.output.dir}"/>
+            <test name="test.updateStopTimesTest" todir="${junit.output.dir}"/>
+            <test name="test.updateTourTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="PLD_AGILE.classpath"/>
+        </junit>
+    </target>
+    <target name="updateStopTimesTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.updateStopTimesTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="PLD_AGILE.classpath"/>
+        </junit>
+    </target>
+    <target name="updateTourTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.updateTourTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="PLD_AGILE.classpath"/>
+        </junit>
+    </target>
+    <target name="Window">
+        <java classname="view.Window" failonerror="true" fork="yes">
+            <classpath refid="PLD_AGILE.classpath"/>
+        </java>
+    </target>
+    <target name="junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
+</project>

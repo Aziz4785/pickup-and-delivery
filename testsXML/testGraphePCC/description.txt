@@ -1,0 +1,19 @@
+test 1 : cas normal
+test 2 : un pickup est confondu avec le delivery d'une autre requete
+test 3 : cas normal (4 sommet / 1 requete)
+test 4 : cas normal (7 sommet / 1 requete)
+test 5 : cas normal (7 sommet / 2 requete)
+test 6 : cas normal (12 sommet / 3 requete)
+test 7 : cas ou duration =0
+test 8 : pikup de requete 1 est confondu avec delivery de requete 3
+test 9 : pikup de requete1 est confondu avec pickup de requete 2
+test 10 : pickup requete 1 = pickup requete 2  = pickup requete 3
+teste 11 : pickup requete 1 = pickup requete2 et delivery 1 = delivery 2
+test 12: depot = pikup 1 et delivery 1 = pickup 2
+test 13 : depot = delivery 2 et pickup 1 = depot
+test 14 : pickup 1 = pickup 2 = pickup 3 et depot = delivery 1 = delivery 2 =delivery 3
+tet 15 : 0 requetes
+test 16 0 requetes0 depot
+test 17 : map de 1 sommet 
+test 18 :map de 2 sommet 2 segment
+test 19 : map avec des arretes on entières
